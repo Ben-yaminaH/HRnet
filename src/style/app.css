@@ -1,0 +1,130 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+}
+
+.modal-content button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
+
+
+select {
+    padding: 5px;
+}
+
+
+input,
+select {
+    width: 200px;
+}
+
+
+table {
+    width: 75%;
+}
+
+.search-input {
+    margin-Bottom: 15px;
+    padding: 5px;
+    width: 200px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
+
+.page-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 23px;
+    margin: 15px;
+}

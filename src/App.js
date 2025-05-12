@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import CreateEmployee from './pages/create-employee';
+import EmployeeList from './pages/employee-list';
+import { useDispatch } from 'react-redux';
+import { setEmployees } from './store/employeeSlice';
 
-function App() {
+export default function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const storedEmployees = JSON.parse(localStorage.getItem('employees')) || [];
+    dispatch(setEmployees(storedEmployees));
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<CreateEmployee />} />
+      <Route path="/employee-list" element={<EmployeeList />} />
+    </Routes>
   );
 }
-
-export default App;
