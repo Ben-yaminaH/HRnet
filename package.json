@@ -1,7 +1,7 @@
 {
-  "name": "hrnet-react",
+  "name": "hrnet-react-ben",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",
     "@testing-library/dom": "^10.4.0",
@@ -40,5 +40,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "application web interne, HRnet, qui gère les dossiers des employés",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben-yaminaH/HRnet.git"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ben-yaminaH/HRnet/issues"
+  },
+  "homepage": "https://github.com/Ben-yaminaH/HRnet#readme"
 }
