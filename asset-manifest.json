@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hrnet-react-ben/static/css/main.dabdb6d8.css",
+    "main.js": "/hrnet-react-ben/static/js/main.2af7a1a8.js",
+    "static/js/453.7266ebcc.chunk.js": "/hrnet-react-ben/static/js/453.7266ebcc.chunk.js",
+    "index.html": "/hrnet-react-ben/index.html",
+    "main.dabdb6d8.css.map": "/hrnet-react-ben/static/css/main.dabdb6d8.css.map",
+    "main.2af7a1a8.js.map": "/hrnet-react-ben/static/js/main.2af7a1a8.js.map",
+    "453.7266ebcc.chunk.js.map": "/hrnet-react-ben/static/js/453.7266ebcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dabdb6d8.css",
+    "static/js/main.2af7a1a8.js"
+  ]
+}
